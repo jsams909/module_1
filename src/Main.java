@@ -76,7 +76,7 @@ class Vehicle{
                 //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
                 // to see how IntelliJ IDEA suggests fixing it.
                 Vehicle v1 = new Vehicle(4, "red", 2.2f, "regular");
-                System.out.print(v1.numberOfWheels+" "+v1.color+" "+v1.engineSize+" "+v1.fuelType);
+                System.out.println(v1.numberOfWheels+" "+v1.color+" "+v1.engineSize+" "+v1.fuelType);
                 v1.getNumberOfWheels();
                 v1.setNumberOfWheels(3);
                 v1.getColor();
@@ -85,6 +85,7 @@ class Vehicle{
                 v1.setEngineSize(3.6f);
                 v1.getFuelType();
                 v1.setFuelType("Premium");
+                System.out.println(v1.numberOfWheels+" "+v1.color+" "+v1.engineSize+" "+v1.fuelType);
                 Car c1 = new Car(4, "Green", 2.2f, "regular", "Honda");
                 c1.displayInfo();
                 c1.honk();
